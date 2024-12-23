@@ -1,4 +1,4 @@
-# Brand vs. Non-Brand Queries - Exploring CTR Trends through Data Analysis
+# Data Analysis of the Impact of Brand-Related Queries on CTR and Conversion Rate - Insights from Clustering
 
 ## Overview
 This is a self-initiated data analysis project using the Amazon sales dataset from Kaggle. The goal is to analyze the impact of brand-related queries on click-through rates (CTR) and explore how brand presence influences user engagement. This analysis tests the hypothesis that there is a significant difference in CTR between brand-related search queries and non-brand-related search queries. The project involves exploratory data analysis (EDA) and clustering analysis, particularly using DBSCAN, to uncover patterns in brand-related search queries. Despite challenges such as data imbalances, this project offers valuable insights into how segmented targeting strategies can enhance advertising performance.
