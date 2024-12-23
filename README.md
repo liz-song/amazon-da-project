@@ -8,7 +8,8 @@ The primary goal of this project is to **analyze the impact of brand names** in 
 
 ## Data Source
 - **Dataset**: Kaggle - Amazon Advertising Performance Metrics
-- **Link**: [Amazon Advertising Performance Metrics]([https://www.kaggle.com/datasets/amazon](https://www.kaggle.com/datasets/mayuriawati/amazon-advertising-performance-metrics/data))
+- **Link**: [Amazon Advertising Performance Metrics](https://www.kaggle.com/datasets/mayuriawati/amazon-advertising-performance-metrics/data)
+
 
 ## Requirements
 To run the analysis, the following Python libraries are required:
