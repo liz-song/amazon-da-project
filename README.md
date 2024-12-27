@@ -1,10 +1,11 @@
-# Data Analysis of the Impact of Brand-Related Queries on CTR and Conversion Rate - Insights from Clustering
+# Data Analysis of the Impact of Queries Containing Brand Names on CTR and Conversion Rate - Identifying Patterns and Strategies for Brand Name Queries
 
 ## Overview
-This is a self-initiated data analysis project using the Amazon sales dataset from Kaggle. The goal is to analyze the impact of brand-related queries on click-through rates (CTR) and explore how brand presence influences user engagement. This analysis tests the hypothesis that there is a significant difference in CTR between brand-related search queries and non-brand-related search queries. The project involves exploratory data analysis (EDA) and clustering analysis, particularly using DBSCAN, to uncover patterns in brand-related search queries. Despite challenges such as data imbalances, this project offers valuable insights into how segmented targeting strategies can enhance advertising performance.
+This is a data analysis project focused on examining the impact of queries containing brand names on click-through rates (CTR) and further conversion rate. The primary objective is to test the hypothesis that there is a significant difference in CTR between search queries containing brand names(brand queries) and non-brand search queries(non-brand queries).
+The project employs exploratory data analysis (EDA) to investigate the characteristics of search queries that incorporate brand names, aiming to uncover patterns and insights into how these queries affect essential variables for purchase decisions. By analyzing CTR and user engagement metrics, this study aims to identify current issues through performance assessment by brand and propose strategies to enhance key metrics.
 
 ## Objective
-The primary goal of this project is to **analyze the impact of brand names** in search queries on **click-through rates (CTR)** and explore how **brand presence** influences **user engagement**. The analysis tests the hypothesis that there is a **significant difference in CTR** between **brand-related search queries** and **non-brand-related search queries**. Additionally, **DBSCAN clustering** is applied to uncover patterns within **search queries that include brand-related terms** and explore how different **clusters of queries** exhibit distinct **user behaviors**.
+The primary goal of this project is to **analyze the impact of brand names** in search queries on **click-through rates (CTR)** and explore how **brand presence** influences **further conversion ratet**. The analysis tests the hypothesis that there is a significant difference in CTR between search queries containing brand names(brand queries) and non-brand search queries(non-brand queries). Additionally, the project aims to conduct deeper data exploration focused on brand queries to identify detailed patterns specific to each brand.
 
 ## Data Source
 - **Dataset**: Kaggle - Amazon Advertising Performance Metrics
@@ -26,16 +27,20 @@ Ensure that the dataset file is located in the **same directory** as the Jupyter
 
 **Key Findings:**
 - **Brand-related queries** generally attract more **user engagement**, as demonstrated by the significant difference in **CTR** between brand-related and non-brand-related queries.
-- The word '**fidget**' was identified as a key contributor to **higher CTR**, suggesting that using this keyword can enhance **customer targeting**.
-- **Search queries related to the brand 'bunmo'** showed higher **conversion rates**, highlighting the impact of **brand awareness** and **trust** on purchasing decisions.
-- **Narrower search query ranges** are associated with higher **conversion rates**, indicating that **segmented targeting** focusing on specific products or brands is more effective.
-
+- Brand performance varied across the funnel:
+  - Bunmo: Balanced performance with high conversion rates.
+  - Chewigem and Oombee: High initial interest but low final conversions.
+  - Fidgetland, Tangle, and Speks: High brand awareness but low purchase rates.
+  - Tailored strategies are needed to address specific funnel weaknesses for each brand.
 **Future Work:**
-- Expand the dataset by including more diverse variables, such as **demographic and behavioral information**, to strengthen the analysis.
-- Address data issues like **imbalance** and **skewness** to improve the accuracy and robustness of the analysis.
+- **Expand the dataset** to include diverse variables such as demographic and behavioral information for improved analysis robustness.
+- **Address data imbalance and skewness** issues to enable better parametric analyses and advanced modeling.
 
 **Conclusion:**
-This project revealed that **brand-related queries** generally lead to higher **CTR**, with the word '**fidget**' being a key contributor. It also highlighted that **brand awareness** and **trust** significantly impact **conversion rates**, particularly for the brand '**bunmo**'. Furthermore, more **specific and targeted marketing** leads to higher conversion rates, especially for narrower search queries. For broader queries, ads should emphasize the specific **brand** or **features** to attract relevant users.
+- The project revealed that **queries containing brand names generally attract more user engagement compared to non-brand queries.**
+- **Specific funnel weaknesses for each brand must be addressed to enhance overall performance.**
+- Brands like Bunmo demonstrated effective conversion strategies, while others like Chewigem and Oombee have potential for improvement in converting initial interest into final purchases.
+- Future efforts should focus on optimizing marketing strategies, expanding datasets for detailed customer behavior insights, and refining analytical methods to better capture consumer behavior and drive sales.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
