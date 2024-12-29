@@ -31,7 +31,7 @@ Ensure that the dataset file is located in the **same directory** as the Jupyter
   - Bunmo: Balanced performance with high conversion rates.
   - Chewigem and Oombee: High initial interest but low final conversions.
   - Fidgetland, Tangle, and Speks: High brand awareness but low purchase rates.
-  - Tailored strategies are needed to address specific funnel weaknesses for each brand.
+  - Tailored strategies are needed to address specific funnel weaknesses for each brand.  
 **Future Work:**
 - **Expand the dataset** to include diverse variables such as demographic and behavioral information for improved analysis robustness.
 - **Address data imbalance and skewness** issues to enable better parametric analyses and advanced modeling.
