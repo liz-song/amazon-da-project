@@ -1,4 +1,4 @@
-# Data Analysis of the Impact of Brand Name Queries on CTR and Conversion Rate
+# Data Analysis of the Impact of Brand Name Queries on CTR, Conversion Rate, and Brand-Specific Funnel Performance
 
 ## Overview
 This project analyzes the impact of brand names in search queries on Click-Through Rate (CTR) and Conversion Rate (CVR) using web log data. The primary objective is to test the hypothesis that search queries containing brand names exhibit a higher CTR compared to non-brand queries. The analysis employs exploratory data analysis (EDA) and statistical hypothesis testing to identify patterns in brand-related queries and their influence on key performance metrics. Additionally, brand-specific funnel performance is assessed to provide targeted optimization strategies.
