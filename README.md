@@ -44,10 +44,5 @@ To run the analysis, the following Python libraries are required:
 - **Advanced Modeling:** Apply NLP techniques to further analyze user intent and query structures.
 - **Marketing Optimization:** Use insights to refine brand marketing and ad targeting strategies.
 
-## Lesson-Learned
-- Identifying key factors affecting performance metrics.
-- Gaining experience in utilizing NLP techniques to derive business insights from text data.
-- Recognizing the importance of purpose-driven data collection and preprocessing for detailed customer behavior analysis.
-
 This study demonstrates how **brand-related search queries drive higher engagement** and provides actionable strategies for improving CTR and conversion performance. Future research should focus on **refining analytical methodologies and integrating more diverse datasets, including demographic information and details on the pages where conversions were initiated**, to better capture consumer behavior and optimize marketing strategies.
 
